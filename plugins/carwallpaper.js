@@ -11,11 +11,11 @@ const axios = require('axios');
 const Config = require('../config');
 
 const Language = require('../language');
-const Lang = Language.getString('carwallpaper');
+const Lang = Language.getString('wallpaper');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'carwallpaper ?(.*)', fromMe: true, desc: Lang.AN}, (async (message, match) => {
+    Asena.addCommand({pattern: 'wallpaper ?(.*)', fromMe: true, desc: Lang.AN}, (async (message, match) => {
 
     var r_text = new Array ();
 
