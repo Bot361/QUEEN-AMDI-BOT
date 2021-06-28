@@ -27,6 +27,6 @@ Godzilla bot යනු සංවර්ධනය සඳහා විවෘත ම
 
 #### 02. Click Deploy button
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BlackAmda/QueenAmdi)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Bot361/QUEEN-AMDI-BOT)
 
 
