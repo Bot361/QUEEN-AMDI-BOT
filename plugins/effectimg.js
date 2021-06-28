@@ -29,19 +29,19 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/glitch?apikey=e1ee2b3d3b00e58f2511ad95&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
-    Asena.addCommand({pattern: 'pemoji ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'dropwater ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
         
     var uri = encodeURI(match[1])
     
-    var ttinullimage = await axios.get('https://api.zeks.xyz/api/emoji-image?apikey=fHZpP3j61LgH80BzanBm92jch1Q&emoji=' + uri, { responseType: 'arraybuffer' })
+    var ttinullimage = await axios.get('https://api.zeks.xyz/api/dropwater?apikey=7h7ZbRIwJTAXtuaBAbIBltOMYQ9&text=' + uri, { responseType: 'arraybuffer' })
     
-    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ' })
+    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·' })
 
     }));
 
@@ -52,7 +52,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -69,7 +69,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/logoaveng?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -79,17 +79,17 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/text3dbox?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
-    Asena.addCommand({pattern: 'thunder ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'phub ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/thundertext?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/phlogo?apikey=7h7ZbRIwJTAXtuaBAbIBltOMYQ9&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -99,7 +99,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/tlight?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -109,7 +109,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/metallogo?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -119,7 +119,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/sweetcandy/?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -129,7 +129,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/hpotter/?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -146,7 +146,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/photooxy2/arcade8bit?apikey=e1ee2b3d3b00e58f2511ad95&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -156,7 +156,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/watercolor?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -166,7 +166,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://docs-jojo.herokuapp.com/api/gaming?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -176,7 +176,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/futureneon?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -186,7 +186,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/sandw?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -196,7 +196,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/cloud?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -213,7 +213,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/phlogo?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -223,7 +223,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/snow3d?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -239,7 +239,7 @@ if (Config.WORKTYPE == 'private') {
 }
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/lionlogo?apikey=e1ee2b3d3b00e58f2511ad95&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -249,7 +249,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/logogaming?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -259,7 +259,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/fpslogo?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -269,7 +269,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/lovemsg/?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -279,7 +279,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/bloodfrosted?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -289,7 +289,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/logobp?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -299,7 +299,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/box3d?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 }
@@ -323,7 +323,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/glitch?apikey=e1ee2b3d3b00e58f2511ad95&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -335,7 +335,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var ttinullimage = await axios.get('https://api.zeks.xyz/api/emoji-image?apikey=fHZpP3j61LgH80BzanBm92jch1Q&emoji=' + uri, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ' })
+    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·' })
 
     }));
 
@@ -346,7 +346,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/epep?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -363,7 +363,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/logoaveng?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -373,7 +373,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/text3dbox?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -383,7 +383,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/thundertext?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -393,7 +393,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/tlight?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -403,7 +403,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/metallogo?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -413,7 +413,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/sweetcandy/?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -423,7 +423,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/hpotter/?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -440,7 +440,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/photooxy2/arcade8bit?apikey=e1ee2b3d3b00e58f2511ad95&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -450,7 +450,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/watercolor?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -460,7 +460,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://docs-jojo.herokuapp.com/api/gaming?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -470,7 +470,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/futureneon?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -480,7 +480,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/sandw?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -490,7 +490,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/cloud?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -507,7 +507,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/phlogo?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg , caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -517,7 +517,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/snow3d?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -533,7 +533,7 @@ else if (Config.WORKTYPE == 'public') {
 }
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome2/lionlogo?apikey=e1ee2b3d3b00e58f2511ad95&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -543,7 +543,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/logogaming?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -553,7 +553,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/ephoto1/fpslogo?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -563,7 +563,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://videfikri.com/api/textmaker/lovemsg/?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -573,7 +573,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/bloodfrosted?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -583,7 +583,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/logobp?apikey=fHZpP3j61LgH80BzanBm92jch1Q&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 
@@ -593,7 +593,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://lolhuman.herokuapp.com/api/textprome/box3d?apikey=e1ee2b3d3b00e58f2511ad95&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '·.★·.·´¯`·.·★ 🅶🅾🅳🆉🅸🅻🅻🅰 🅱🅾🆃 🅱🆈 🅿🆄🅽🆂🅸🆃🅷 ★·.·´¯`·.·★.·'})
 
     }));
 }
