@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *QueenAmdi*:  ```" + msg + "```"
+    return "✅ *Godzilla Bot*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *QueenAmdi*:  ```" + msg + "```"
+    return "🛑 *Godzilla Bot*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *QueenAmdi*:  ```" + msg + "```"
+    return "⏺️ *Godzilla Bot*:  ```" + msg + "```"
 }
 
 

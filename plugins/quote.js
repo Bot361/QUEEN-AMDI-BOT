@@ -7,9 +7,9 @@ const QUOTE_DESC = "It Sends Random Quote"
 const NEED_LOCATIONA = "*Invalid Request*"
 const QUOTE = "Quote :"
 const AUTHOR = "Author :"
-const NOT_FOUNDA = "```Sorry,I could not find a quote. 😖```"
+const NOT_FOUNDA = "```කණගාටුයි, මට උපුටා දැක්වීමක් සොයාගත නොහැකි විය. 😖```"
 
-Asena.addCommand({pattern: 'quote ?(.*)', fromMe: false, desc: QUOTE_DESC}, async (message, match) => {
+Asena.addCommand({pattern: 'quote ?(!*)', fromMe: false, desc: QUOTE_DESC}, async (message, match) => {
 	if (match[1] === 'xx') return await message.reply(NEED_LOCATIONA);
 	const url = `https://api.quotable.io/random`;
 	try {

@@ -18,9 +18,9 @@ const cwebp = require('cwebp-bin');
 const Config = require('../config');
 
 // List
-const UA_DESC = "Converts sound recording to an audio File."
-const UA_NEEDREPLY = "*Must Reply to a sound recording*"
-const UA_PROC = "```Converting Sound recording To an Audio File```"
+const UA_DESC = "ශබ්ද පටිගත කිරීම ශ්‍රව්‍ය ගොනුවකට පරිවර්තනය කරයි."
+const UA_NEEDREPLY = "*ශබ්ද පටිගත කිරීමකට පිළිතුරු දිය යුතුය*"
+const UA_PROC = "```ශබ්ද පටිගත කිරීම ශ්‍රව්‍ය ගොනුවකට පරිවර්තනය කිරීම```"
 
     Asena.addCommand({pattern: 'unaudio', fromMe: true, desc: UA_DESC}, (async (message, match) => {    
 

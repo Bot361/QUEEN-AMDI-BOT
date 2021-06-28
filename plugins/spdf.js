@@ -5,11 +5,11 @@ const axios = require('axios');
 const request = require('request');
 const got = require("got");
 const Config = require('../config');
-const SPDF_DESC = "Converts a Site into PDF"
-const SPDF_PROC = "```Converting Site into PDF```"
-const SPDF_LINK = "*Must Enter a URL*"
+const SPDF_DESC = "වෙබ් අඩවියක් PDF බවට පරිවර්තනය කරයි"
+const SPDF_PROC = "```වෙබ් අඩවිය PDF බවට පරිවර්තනය කිරීම```"
+const SPDF_LINK = "*URL එකක් ඇතුළත් කළ යුතුය*"
 
-Asena.addCommand({pattern: 'spdf ?(.*)', fromMe: false, desc: SPDF_DESC }, (async (message, match) => {
+Asena.addCommand({pattern: 'spdf ?(!*)', fromMe: false, desc: SPDF_DESC }, (async (message, match) => {
 
     if (match[1] === '') return await message.sendMessage(SPDF_LINK);
 
