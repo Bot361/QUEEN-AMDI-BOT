@@ -16,7 +16,7 @@ const Lang = Language.getString('conventer');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'tblend ?(!*)', fromMe: true, desc: Lang.T_DESC}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'tblend ?(.*)', fromMe: true, desc: Lang.T_DESC}, (async (message, match) => {    
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -44,7 +44,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -64,7 +64,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -84,7 +84,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -104,7 +104,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -124,7 +124,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -144,7 +144,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -164,7 +164,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -184,7 +184,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -204,7 +204,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -224,7 +224,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -244,7 +244,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -264,7 +264,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
 
@@ -276,7 +276,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'tblend ?(!*)', fromMe: false, desc: Lang.T_DESC}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'tblend ?(.*)', fromMe: false, desc: Lang.T_DESC}, (async (message, match) => {    
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -304,7 +304,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -324,7 +324,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -344,7 +344,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -364,7 +364,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -384,7 +384,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -404,7 +404,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -424,7 +424,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -444,7 +444,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -464,7 +464,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -484,7 +484,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -504,7 +504,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -524,7 +524,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('output.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: '▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁'});
+                    await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
 

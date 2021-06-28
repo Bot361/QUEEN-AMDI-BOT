@@ -11,7 +11,7 @@ const LOADING = "වීඩියෝ බාගත කිරීම..."
 const NOT_FOUNDFB = "වීඩියෝව හමු නොවීය"
 const CAPTION = "Caption"
 
-Asena.addCommand({ pattern: 'ig ?(!*)', fromMe: false, desc: IG_DESC}, async (message, match) => {
+Asena.addCommand({ pattern: 'ig ?(.*)', fromMe: false, desc: IG_DESC}, async (message, match) => {
 
     const userName = match[1]
 
@@ -32,11 +32,11 @@ Asena.addCommand({ pattern: 'ig ?(!*)', fromMe: false, desc: IG_DESC}, async (me
         const msg = `${type}`
 
 	 if (msg === 'jpg') { await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {quoted: message.data}, {
-          caption: "▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁"
+          caption: "Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ"
         })}
 		 	 
 	if (msg === 'mp4') { await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {quoted: message.data}, {
-          caption: "▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁"
+          caption: "Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ"
         })}
 	
         
@@ -50,7 +50,7 @@ Asena.addCommand({ pattern: 'ig ?(!*)', fromMe: false, desc: IG_DESC}, async (me
 
 
 
-Asena.addCommand({ pattern: 'fb ?(!*)', fromMe: false, desc: FBDESC }, async (message, match) => {
+Asena.addCommand({ pattern: 'fb ?(.*)', fromMe: false, desc: FBDESC }, async (message, match) => {
 
     const userName = match[1]
 
@@ -71,7 +71,7 @@ Asena.addCommand({ pattern: 'fb ?(!*)', fromMe: false, desc: FBDESC }, async (me
         const msg = `*${CAPTION}*: ${message}`
 
         await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {quoted: message.data}, {
-          caption: "▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁"
+          caption: "Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ"
         })
       })
       .catch(

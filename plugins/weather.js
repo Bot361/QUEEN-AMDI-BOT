@@ -17,7 +17,7 @@ const Lang = Language.getString('weather');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'weather ?(!*)', desc: Lang.WEATHER_DESC, fromMe: true}, async (message, match) => {
+    Asena.addCommand({pattern: 'weather ?(.*)', desc: Lang.WEATHER_DESC, fromMe: true}, async (message, match) => {
 
             if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -42,7 +42,7 @@ if (Config.WORKTYPE == 'private') {
 }
 if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'weather ?(!*)', desc: Lang.WEATHER_DESC, fromMe: false}, async (message, match) => {
+    Asena.addCommand({pattern: 'weather ?(.*)', desc: Lang.WEATHER_DESC, fromMe: false}, async (message, match) => {
 
             if (message.jid === '905524317852-1612300121@g.us') {
 

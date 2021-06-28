@@ -54,7 +54,7 @@ Asena.addCommand({ pattern: 'notes', fromMe: true, desc: Lang.NOTES_USAGE }, asy
 
 
 
-Asena.addCommand({ pattern: 'save ?(!*)', fromMe: true, desc: Lang.SAVE_USAGE }, async (message, match) => {
+Asena.addCommand({ pattern: 'save ?(.*)', fromMe: true, desc: Lang.SAVE_USAGE }, async (message, match) => {
 
     const userNote = match[1]
 

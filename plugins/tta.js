@@ -15,7 +15,7 @@ const fs = require('fs');
 const https = require('https');
 const googleTTS = require('google-translate-tts');
 
-Asena.addCommand({pattern: 'voicedit (!*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+Asena.addCommand({pattern: 'tta (.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
     if(match[1] === undefined || match[1] == "")
         return;
     

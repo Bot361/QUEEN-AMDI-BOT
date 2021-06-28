@@ -5,14 +5,14 @@ const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg');
 const {execFile} = require('child_process');
 
-const LOG = "ඔබගේ පුද්ගලික අංකයට ඔබ පිළිතුරු දෙන පණිවිඩය සුරකිනු ඇත."
-const REPLY = "*කරුණාකර ඕනෑම පණිවිඩයකට පිළිතුරු දෙන්න!*"
-const ANIM = "සජීවිකරණ ස්ටිකර් සඳහා සහය නොදක්වයි!"
+const LOG = "Saves the message you reply to your private number."
+const REPLY = "*Please Reply To Any Message!*"
+const ANIM = "Does not support animated stickers!"
 const HEAD = "```===== [LOGGED MESSAGE] =====```\n\n"
 const USER = " From User Number \n"
 const FROM = " From the group with ID, "
 const MSG = "Message: \n\n"
-const SUC = "*පණිවිඩය ලොග් වෙත සාර්ථකව සුරකින ලදි! ✅️*"
+const SUC = "*Message Successfully Saved to LOG! ✅️*"
 
 Asena.addCommand({ pattern: 'log', fromMe: true, desc: LOG, warn: ANIM, onlyGroup: true}, (async (message, match) => { 
 

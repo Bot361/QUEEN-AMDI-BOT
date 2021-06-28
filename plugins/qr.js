@@ -19,12 +19,12 @@ const got = require("got");
 const QR_DESC = "It Converts Text To Qr Code"
 const NEED_TEXT = "*Must Enter Some Words*"
 
-Asena.addCommand({pattern: 'qr ?(!*)', fromMe: false, desc: QR_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'qr ?(.*)', fromMe: false, desc: QR_DESC}, (async (message, match) => {
 
     if (match[1] === '') return await message.sendMessage(NEED_TEXT);
 
     var webimage = await axios.get(`https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${match[1].replace(/#/g, '\n')} `, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: "▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁"})
+    await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: "Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ"})
 
 }));

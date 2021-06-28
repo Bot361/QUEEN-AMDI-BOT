@@ -23,7 +23,7 @@ const axios = require('axios');
             })
 
             await message.sendMessage(Buffer.from(imageBuffer.data), MessageType.image, {
-                        caption: "▁ ▂ ▄ ▅ ▆ ▇ █ Godziila Bot by Punsith █ ▇ ▆ ▅ ▄ ▂ ▁"
+                        caption: "Copyright © 2021 | Queen Amdi-ᴮʸ ᴮˡᵃᶜᵏ ᴬᵐᵈᵃ"
             })
           })
       },

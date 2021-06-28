@@ -15,14 +15,14 @@ const Lang = Language.getString('anime');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'ranime ?(!*)', fromMe: true, desc: Lang.AN}, (async (message, match) => {
+    Asena.addCommand({pattern: 'ranime ?(.*)', fromMe: true, desc: Lang.AN}, (async (message, match) => {
 
     var r_text = new Array ();
 
-    r_text[0] = "https://wallpapercave.com/wp/wp5950100.jpg";
-    r_text[1] = "https://wallpapercave.com/wp/wp7979675.jpg";
-    r_text[2] = "https://wallpapercave.com/wp/wp8214543.jpg";
-    r_text[3] = "https://wallpapercave.com/wp/wp7192585.jpg";
+    r_text[0] = "https://i.ibb.co/FwPP04q/images.jpg";
+    r_text[1] = "https://i.ibb.co/GH2tWJ4/images-1.jpg";
+    r_text[2] = "https://i.ibb.co/Mf79pVH/download.jpg";
+    r_text[3] = "https://i.ibb.co/b11BDWH/images-2.jpg";
     r_text[4] = "https://i.ibb.co/7v1m94x/images-3.jpg";
     r_text[5] = "https://i.ibb.co/vdKJxNX/images-4.jpg";
     r_text[6] = "https://i.ibb.co/cvKvyzR/images-5.jpg";
@@ -109,7 +109,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'ranime ?(!*)', fromMe: false, desc: Lang.AN}, (async (message, match) => {
+    Asena.addCommand({pattern: 'ranime ?(.*)', fromMe: false, desc: Lang.AN}, (async (message, match) => {
 
     var r_text = new Array ();
 
